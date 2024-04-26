@@ -30,3 +30,4 @@ Route::get('/chess-experiment-new/{nextimg}', [ChessExperimentController::class,
 Route::post('/submit-chess-experiment', [ChessExperimentController::class, 'submitChessExperiment'])->name('submit-chess-experiment');
 Route::get('/exit-survey', [SurveyController::class, 'exit_survey'])->name('exit_survey');
 Route::get('/thank-you', [SurveyController::class, 'thanks'])->name('thanks');
+Route::get('/remove-cookie', [ChessExperimentController::class, 'removeValidatedCodeCookie'])->name('remove.cookie');

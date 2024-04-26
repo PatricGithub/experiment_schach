@@ -10,7 +10,7 @@
     @livewireStyles
 </head>
 <body>
-    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7; height: 100vw">
+    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7;">
         <div class="content">
           <div class="container">
             <div class="wrap">
@@ -20,21 +20,21 @@
                     
                     <h3 style="margin-bottom: 0 !important; padding-bottom: 0!important"><strong>Zweck der Forschung</strong></h3>
                     <p class="magazin_paragraph" style="margin-top: 10px !important; padding-top: 0px!important">
-                        Das Ziel der Studie ist es, Kategorisierung im Schach zu untersuchen. 
+                        Das Ziel der Studie ist es, Analogien im Schach zu untersuchen. 
                         Sie wird im Rahmen wissenschaftlicher Forschung durchgeführt, die vom Fachbereich Kognitionswissenschaft und Psychologie NBU durchgeführt wird. 
                         Die Studie wurde von der Ethikkommission der NBU genehmigt.</p>
                     
                     <h3><strong>Ablauf</strong></h3>
                     <p class="magazin_paragraph" style="margin-top: 10px !important; padding-top: 0px!important">
-                        Zunächst werden Sie drei Schachpuzzles lösen.
-                        Die Lösungen dieser Puzzles werden uns dabei helfen, festzustellen, ob Sie ein Anfänger oder ein fortgeschrittener Schachspieler sind.
-                        Nach der Identifikation werden Sie ein Set von Schachsituationen präsentiert bekommen. In diesen Situationen müssen Sie das Schachbrett beurteilen.
-Sie werden dieselben Situationen später in der Hauptstudie wiedersehen. In der Hauptstudie werden Ihnen zwei Schachsituationen gegenübergestellt.
-Ihre Aufgabe besteht darin, zu evaluieren, ob diese beiden Situationen ähnlich sind oder nicht.
-                    </p>
+                        Zuerst werden Sie einen kurzen Fragebogen beantworten und dann drei Schachpuzzles lösen. Diese Aufgaben dienen dazu, Ihr Schachniveau einzuschätzen und festzustellen, ob Sie ein Anfänger oder ein fortgeschrittener Spieler sind.
+                            <br>
+                        Nach der Einstufung erwarten Sie 10 einzigartige Schachsituationen. Zu jeder Position finden Sie ein leeres Brett. Ihre Aufgabe ist es, auf diesem Brett eine neue Schachposition zu erstellen, die der Originalposition so ähnlich wie möglich ist.
+                        <br>
+                        Nutze deine Schachkenntnisse und deine Fantasie, um Analogien zu finden, die sowohl die Spielfiguren als auch die strategische Ausrichtung der ursprünglichen Position widerspiegeln. Zeigen Sie Ihre Kreativität und Ihr Verständnis des Spiels, indem Sie neue Positionen erschaffen, die sowohl herausfordernd als auch dem Geist der ursprünglichen Situation entsprechen.
+                     </p>
                     
                     <h3><strong>Dauer</strong></h3>
-                    <p class="magazin_paragraph" style="margin-top: 10px !important; padding-top: 0px!important">20 - 30 Minuten</p>
+                    <p class="magazin_paragraph" style="margin-top: 10px !important; padding-top: 0px!important">10 - 20 Minuten</p>
                     
                     <h3><strong>Freiwillige Teilnahme</strong></h3>
                     <p class="magazin_paragraph" style="margin-top: 10px !important; padding-top: 0px!important">Ihre Teilnahme erfolgt vollständig auf freiwilliger Basis, es gibt keine bekannten Risiken und keine Form der Vergütung. Sie sind frei, Ihre Teilnahme jederzeit und ohne Angabe von Gründen zurückzuziehen. Ein Abbruch zieht keinerlei Konsequenzen nach sich.</p>

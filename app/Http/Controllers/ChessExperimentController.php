@@ -295,4 +295,12 @@ public function submitChessExperiment(Request $request)
     // You can handle this redirection based on your logic
     return redirect()->route('chess_experiment2', ['nextimg' => $nextImageNumber]);
 }
+
+public function removeValidatedCodeCookie(Request $request)
+    {
+        // Remove the validated_code cookie
+        $response = new Response('Cookie removed');
+        $response->withCookie(cookie()->forget('validated_code'));
+        return $response;
+    }
 }

@@ -17,18 +17,9 @@
             <div class="wrap">
                 <div class="fix-8-12 left magazine2">
                     <h1>Versuchsablauf</h1>
-                    <p class="micro">Auf den folgenden zwanzig Seiten werden Ihnen jeweils eine Schachstellung präsentiert. Ihre Aufgabe ist es die Stellung zu analysieren und eine Einschätzung abzugeben. Dabei haben Sie folgende Möglichkeiten:</p>
-                    <ul>
-                      <li>1. Weiß steht klar auf Gewinn</li>
-                      <li>2. Weiß hat leichten Vorteil</li>
-                      <li>3. Die Stellung ist ausgeglichen</li>
-                      <li>4. Schwarz steht klar auf Gewinn</li>
-                      <li>5. Schwarz hat leichten Vorteil</li>
-                      <li>6. Keine Stellungseinschätzung möglich</li>
-                    </ul>
-                    <br>
-                    <p class="micro">In jeder Stellung ist Weiß am Zug. Versuchen Sie eine normale Zeiteinteilung beim Bearbeiten der Aufgaben zu benutzen, so als wäre die Stellung in einer normalen Schachpartie aufgetreten. Sobald Sie zu einer zufriedenstellenden Lösung gelangt sind geben Sie bitte einen Zug für Weiß an, der Ihrer Meinung nach der Stellungseinschätzung entspricht. Falls Sie zu keiner Stellungseinschätzung gelangen geben Sie dies bitte an und schreiben Sie bei der Zugabfrage den Zug den Sie in einer Schachpartie ziehen würden an.</p>
-                  <br>
+                    <p class="micro"> Neben jeder Schachposition befindet sich ein leeres Brett. Deine Aufgabe: Stelle auf diesem Brett eine neue Schachposition auf, die der Originalposition <strong>ähnelt</strong>.</p>
+                    <p class="micro" style="margin-top:10px">Nutze deine Schachkenntnisse und deine Fantasie, um <strong>Analogien</strong> zu finden, die sowohl die Spielfiguren als auch die strategische Ausrichtung der ursprünglichen Position widerspiegeln.</p>
+                  <p class="micro" style="margin-top:10px; margin-bottom:30px">Also, überlege dir, wie du die Spielfiguren auf dem leeren Brett platzieren kannst, um eine <strong>ähnliche strategische Situation</strong> zu erzeugen.</p>
                   <a href="{{ route('rate.images', ['image_number' => 1]) }}" class="button" style="border-radius: 7px; color: white; background-color: green;">Weiter</a>
 
                 </div> 

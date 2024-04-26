@@ -14,7 +14,7 @@
             </div>
     
             <div class="margin-top-2">
-                <label for="confidence" class="label">2. Wie zuversichtlich mit der Richtigkeit Ihrer Antworten?</label>
+                <label for="confidence" class="label">2. Wie zuversichtlich sind Sie mit der Richtigkeit Ihrer Antworten?</label>
                 <select class="input" wire:model="confidence" required>
                     <option value="">Bitte wählen...</option>
                     <option value="1">Gar nicht zuversichtlich</option>
@@ -27,12 +27,14 @@
             </div>
     
             <div class="margin-top-2">
-                <label for="chessboardSpeed" class="label">3. Bewerten Sie die Geschwindigkeit, mit der die beiden Schachbretter angezeigt wurden.</label>
+                <label for="chessboardSpeed" class="label">3. Bewerten Sie die Kreativität Ihrer Antworten.</label>
                 <select class="input" wire:model="chessboardSpeed" required>
                     <option value="">Bitte wählen...</option>
-                    <option value="slow">Zu langsam</option>
-                    <option value="normal">Genau richtig</option>
-                    <option value="fast">Zu schnell</option>
+                    <option value="Überhaupt nicht kreativ">Überhaupt nicht kreativ</option>
+                    <option value="Nicht sehr kreativ">Nicht sehr kreativ</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Ziemlich kreativ">Ziemlich kreativ</option>
+                    <option value="Sehr reativ">Sehr reativ</option>
                 </select>
                 @error('chessboardSpeed') <span class="error">{{ $message }}</span> @enderror
             </div>

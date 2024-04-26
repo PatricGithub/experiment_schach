@@ -28,7 +28,7 @@ class ExitSurvey extends Component
         $this->validate([
             'instructionsClear' => 'required',
             'confidence' => 'required|integer|between:1,5',
-            'chessboardSpeed' => 'required|in:slow,normal,fast',
+            'chessboardSpeed' => 'required',
         ]);
 
         // Save the survey data to the database
@@ -37,7 +37,6 @@ class ExitSurvey extends Component
             'confidence' => $this->confidence,
             'chessboardSpeed' => $this->chessboardSpeed,
             'unique_id' => $validatedCode,
-            'condition' => $condition,
         ]);
         
         return redirect()->to('/thank-you');

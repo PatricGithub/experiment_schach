@@ -45,20 +45,16 @@ class ImageRatingController extends Controller
      } else {
          // Handle the case where no images are available
          Image::where('taken', 1)->update(['taken' => 0]);
-         return redirect()->route('einleitung_4')->with('success', 'All images rated successfully.');
+         return redirect()->route('exit_survey')->with('success', 'All images rated successfully.');
      }
 }
-
-    
-
-
 
 public function storeRating(Request $request, $image_number)
 {
     $validator = Validator::make($request->all(), [
-        'rating' => 'required',
         'answer' => 'required',
-        'image' => 'required', 
+        'image' => 'required',  
+        'rating' => 'required',
     ]);
     $validatedCode = $request->cookie('validated_code');
     $participant = Participant::where('unique_id', $validatedCode)->first();
@@ -71,6 +67,7 @@ public function storeRating(Request $request, $image_number)
 
     // Store the rating and answer in the database
     ImageRating::create([
+        'rating' => $request->rating, // Verwenden Sie das versteckte Input-Feld für den Screenshot
         'image_path' => $request->image,
         'rating' => $request->rating,
         'answer' => $request->answer,
